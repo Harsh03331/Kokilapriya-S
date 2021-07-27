@@ -1,0 +1,258 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    display: flex;
+    background: url("https://c.wallhere.com/photos/2d/cb/photography_landscape_water_photographer_Sun_sunset_camera-40401.jpg!d");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+.header .nav{
+    color: white;
+    display: flex;
+}
+.nav h3{
+    padding: 30px;
+    position: absolute;
+    left: 0px;
+}
+.nav i{
+    padding: 20px;
+    position: absolute;
+    right: 0px;
+    left: 50px;
+}
+.dropbtn {
+    background-color: #be1616;
+    opacity: 0.5;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 100;
+    border: none;
+    text-align: left;
+}
+.dropdown {
+    padding: 30px;
+    position: absolute;
+    right: 30px;
+    width: 90px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    opacity: 0.5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: red;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #f02c0a;
+}
+
+.wrapper{
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    top: 25%;
+    left: 15%;
+    height: 250px;    
+}
+.wrapper p{
+    font-size: 15px;
+    color: rgba(202, 193, 193, 0.993);
+}
+.wrapper pre{
+    text-align: left;
+    font-size: 40px;
+    color: white;
+}
+.wrapper .link{
+    position: absolute;
+    bottom: 0;
+}
+.wrapper a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid white;
+}
+.wrapper a:hover{
+    background-color: white;
+    color: black;
+}
+.aboutus{
+    align-content: center;
+    background-color: rgb(221, 124, 13) ;
+    height: 100vh;
+}
+.aboutus .title{
+    border: 0px;
+    border-bottom: .5px solid rgba(255, 255, 255, 0.603);
+    padding: 40px;
+    padding-top: 70px;
+    text-align: center;
+}
+.title h1{
+    font-size: 60px ;
+    color: white;
+}
+.title p{
+    font-weight: bold;
+
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+}
+.about{
+    margin: 2%;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 70%;
+}
+.about p{
+    color: black;
+    line-height: 30px;
+
+}
+
+.achievement{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    width: 90%
+}
+.achievement div{
+    width: 200px;
+    height: 70px;
+    border-left: 1px solid rgb(255, 255, 255, 0.2);
+    border-right: 1px solid rgb(255, 255, 255, 0.2);
+    border-radius: 10%;
+    text-align: center;
+    padding: 5%;
+}
+.achievement h1{
+    font-size: 50px;
+    color: white;
+}
+.achievement p{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.serv{
+    background-color: burlywood;
+    height: 150vh;
+}
+.serv .title{
+    border: 0px;
+    border-bottom: .5px solid rgba(255, 255, 255, 0.603);
+    padding: 40px;
+    padding-top: 70px;
+    text-align: center;
+}
+.serv .title h1{
+    font-size: 35px;
+    color:black;
+}
+img{
+    padding: 10px 20px;
+    margin: 10px;
+    width: 350px;
+    border-width: 0px;
+    border-radius: 10px;
+    border:5px inset rgb(63, 57, 58);
+    border-top:0px;
+    border-right:0px;
+    vertical-align:top;
+    height:300px;
+}
+.contactus{
+    align-content: center;
+    background-color: rosybrown;
+    height: 110vh;
+}
+.contactus .title{
+    
+    padding: 40px;
+    padding-top: 70px;
+    text-align: center;
+}
+.contactus .title i{
+    margin: 2%;
+    color: black;
+
+}
+.contactus .title h1{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    color:black;
+}
+.contactus .con{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.reach .form{
+    width: 50%;
+    height: 500px;
+}
+.reach .info{
+    width: 30%;
+    height: 500px;
+}
+.form-des input[type=text],textarea,button {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .form-des textarea{
+      height: 120px;
+  }
+.form-des button{
+    background-color: rgb(170, 115, 175);
+    color: white;
+}
+.form-des button:hover{
+    background-color: rgba(197, 9, 156, 0.973);
+    color: black;
+}
+.contactus .info div{
+    padding-bottom: 40px;
+    padding-left: 40px;
+    text-align: left;
+}
+.info div h4,p{
+    padding-bottom: 5px;
+}
+footer{
+    padding: 10px;
+    background-color: rosybrown;
+    text-align: center;
+    color: black;
+    font-size: 13px;
+}
